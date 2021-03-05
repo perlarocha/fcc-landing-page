@@ -1,0 +1,188 @@
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created for freecodecamp"
+    />
+    <title>FCC Landing Page</title>
+  </head>
+
+<!-- Font -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&family=Montserrat:wght@300&display=swap');
+</style>
+
+<!-- Body -->
+
+<body>
+  <header id="header">
+    <div id="logo">   
+     <img 
+          id="header-img"
+          src="https://static.thenounproject.com/png/670247-200.png"
+          alt=""
+          />
+      
+      <h1 id="header-logo">
+        LochnessaBeauty
+      </h1>
+    </div>
+    
+      <nav id="nav-bar">
+          <div class="navlink"><a class="nav-link" id="nav-link" href="#featured">
+            Featured
+            </a>
+          </div>
+            
+          <div class="navlink"><a class="nav-link" id="nav-link" href="#pricing">
+            Pricing
+           </a>
+          </div>
+            
+          <div class="navlink"><a class="nav-link" id="nav-link" href="#contact">
+            Contact
+            </a>
+          </div>
+      </nav>
+  </header>
+  
+  <div class="banner">
+    <div class="banner-content">
+      <h2 class="banner-1"> Ready to book? </h2>
+      <p class="banner-1">
+        Sign up now for more information about her services 
+        <br> or to make an appointment.
+      </p>
+       
+      <button
+       type="submit"
+       id="sign-up"
+       class="sign-up">
+        Sign Up
+      </button>
+    </div>
+  </div>
+  
+  <div class="sub-title" id="featured">
+    <h2 class="video">
+      Past clients
+    </h2>
+    <p class="video">
+      Check out more of Vanessa's work on <a href="https://www.instagram.com/lashedbylochnessi/" id="social"> Instagram</a> and <a href="https://www.youtube.com/channel/UCg7rXrbbvmUHy_ZRS7DvgCQ" id="social"> Youtube</a>.
+    </p>
+  </div>
+  
+  <div class="video-content" >
+    <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/tO1ZhURHcuQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+  </div>
+  
+<div class="banner-thin"></div>
+
+<div class="sub-title" id="pricing">
+  <h2 class="price">
+    Pricing
+  </h2>
+  
+  <div class="price-cards">
+      <div class="product" id="classics">
+        <img 
+             id="classic-lash"
+             src=""
+             alt="">
+        <h2 class="product-name">The Classic</h2>
+        <p class="price">$150</p>
+        <button class="btn">Select</button>
+      </div>
+    
+    <div class="product" id="volume">
+        <img 
+             id="volume-lash"
+             src=""
+             alt="">
+        <h2 class="product-name">Hybrid /Volume</h2>
+        <p class="price">$200</p>
+        <button class="btn">Select</button>
+      </div>
+    
+      <div class="product" id="mega-volume">
+        <img 
+             id="mega-lash"
+             src=""
+             alt="">
+        <h2 class="product-name">Mega Volume</h2>
+        <p class="price">$250</p>
+        <button class="btn">Select</button>
+      </div>
+   </div>
+</div>
+
+
+<div class="banner-thin" id="banner-2"></div>
+
+<div class="contact" id="contact">
+<div class="sub-title" >
+  <h2 class="contact">
+    Contact
+  </h2>
+</div>
+
+<div class="container">
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+  <div class="form-group">
+  <label id="form-name">
+    Name
+  </label>
+  
+  <input
+         type="text"
+         name="name"
+         id="name"
+         class="form-input"
+         placeholder="Your Name"
+   />
+  </div>
+  
+  <div class="form-group">
+    <label id="form-email">
+      Email
+    </label>
+    
+    <input
+           type="email"
+           name="email"
+           id="email"
+           class="form-input"
+           placeholder="name@email.com"
+     />
+  </div>
+  
+  <div class="form-group">
+      <label id="textarea">Have a question? Leave a message below.</label>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Message"
+      ></textarea>
+  </div>
+  
+  <div class="form-group">
+    <input
+            type="submit"
+            id="submit"
+            class="submit-button"
+            value="Submit"
+      /> 
+  </div>
+</form>
+</div>
+</div>
+</body>
